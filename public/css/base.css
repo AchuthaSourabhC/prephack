@@ -1,0 +1,110 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body{
+	margin: 0;
+	padding: 0;
+
+	background-color: #4D4D4D;
+	color: #eeeeee;
+	font-family:'Lato', sans-serif;
+	
+}
+
+nav{
+	opacity: 0.9;
+	color: #eeeeee;
+}
+
+pre{
+
+	 white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.navbar-inverse{
+
+
+	background-image: none;
+}
+
+.grid{
+margin:2px;
+margin-bottom: 5px;
+margin-top: 5px;
+	padding: 10px; 
+	background-color: #333333;
+	color: #eeeeee;
+	box-shadow:  0 3px 3px #3e3e3e;
+}
+
+
+.prob-content{
+	font-size: 15px;
+		border:none;
+	background-color: #333333;
+	color: #eeeeee;
+
+}
+.grid-prob-view{
+
+	margin:5px;
+}
+
+.error{
+	font-size: 14;
+	color: #FF2B0E;
+}
+.grid-wrap{
+	
+}
+
+.grid-list{
+	
+margin-bottom: 15px;
+
+	padding: 10px; 
+	background-color: #333333;
+	color: #eeeeee;
+	box-shadow:  0 3px 3px #3e3e3e;
+	
+
+}
+.grid-list:hover{
+	background-color: #3e3e3e;
+	box-shadow:  0 3px 4px #333333;
+}
+.grid-list .grid-list-item{
+	border-right: 1px solid #4d4d4d;
+}
+.grid-drop{
+	margin:5px;
+		background-color: #333333;
+	color: #eeeeee;
+	box-shadow:  0 3px 3px #3e3e3e;
+
+	
+}
+.grid-check{
+	color: #eeeeee;
+
+}
+.grid-filter{
+	
+padding: 10px;
+z-index:100;
+	left: 0;
+		background-color: #333333;
+	color: #eeeeee;
+	top:0;
+	box-shadow:  0 3px 3px #3e3e3e;
+
+	
+}
+
+.profile{
+	text-align: center;
+}

@@ -1,0 +1,1 @@
+( unset GIT_DIR ; cd $OPENSHIFT_REPO_DIR ; php artisan migrate )
